@@ -15,10 +15,19 @@ The study includes **data preprocessing, correlation analysis, model evaluation 
 
 ## 🔍 Key Findings  
 
-✔ **Housing prices (medv) increase with the number of rooms (rm)** and decrease with **higher crime rates (crim)**.  
-✔ **Air pollution (nox) and industrial concentration (indus) are negatively correlated with home prices**.  
-✔ **Higher property tax (tax) is linked to better highway access (rad)** and industrial zones.  
-✔ **Linear regression performed well, but PCR was more robust against multicollinearity**.  
+**Urban vs. Suburban Differences**  
+  - Areas **closer to employment centers** tend to have **higher industrial activity and air pollution**.  
+  - **Older buildings** are more common in urban areas, while **newer constructions** are found farther from the city center.  
+
+- **Socioeconomic Status & Housing Prices**  
+  - **Lower-income neighborhoods (higher lstat values) tend to have lower house prices (medv)**.  
+  - **Larger homes (more rooms) are associated with higher median home prices**, making room count a strong predictor of housing value.  
+
+- **Infrastructure & Property Taxes**  
+  - **Better highway access (rad) is linked to higher property tax rates**, possibly due to increased demand and infrastructure costs.  
+  - **Industrial areas tend to have higher property taxes**, reflecting zoning policies and economic factors.  
+
+These insights highlight how **urban planning, economic conditions, and infrastructure shape real estate trends** in Boston.  
 
 ---
 
